@@ -827,7 +827,8 @@ footer span{
 	}
 
 	.footer h3{
-		font-size: 15px;
+		font-size: 15px !important;
+		padding-left: 0px !important;
 	}
 	*{
 		overflow-x: inherit;
@@ -916,8 +917,8 @@ footer span{
 		font-size: 20px;
 	}
 	.social_media a {
-    
-    	font-size: 20px  !important;
+		margin: 0px 6px !important;
+		font-size: 19px  !important;
 	}
 }
 /*Educational detail styling end*/
