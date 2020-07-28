@@ -698,7 +698,7 @@ footer span{
     }
     .nav_section .logo h1 a{
     	color: black;
-    	font-size: 2.6rem;
+    	font-size: 2.4rem;
     }
 	.nav_section .logo{
 		width: 100%;
@@ -728,15 +728,16 @@ footer span{
 
 
 	.left_side h2 {
-		font-size: 34px;
+		font-size: 26px;
 		padding-left: 65px;
 	}
 	.left_side h5{
-		font-size: 25px;
+		font-size: 18px;
 		padding-left: 65px;
+		    font-weight: 600;
 	}
 	.left_side h4 {
-    	font-size: 27px;
+    	font-size: 22px;
     	padding-left: 65px;
     }
     .left_side h4:before {
@@ -751,7 +752,9 @@ footer span{
 		padding: 15px 83px;
   	  	margin-left: 75px;
     	margin-bottom: 35px;
-  	  	
+	}
+	.left_side a {
+	    font-size: 10px;
 	}
 	.right_side {
 	    width: 300px;
@@ -787,7 +790,9 @@ footer span{
     	padding-left: 40px;
 	}
 
-
+	.about_content .details .info p {
+    font-size: 16px;
+		}
 	.skills .skills_list:before {
     	display: none;
     }
@@ -824,7 +829,12 @@ footer span{
 	.footer h3{
 		font-size: 15px;
 	}
-	
+	*{
+		overflow-x: inherit;
+	}
+	.skills .section2 .subject {
+		margin-right: 30px;
+	}
 
 }
 
@@ -896,13 +906,18 @@ footer span{
 		height: auto;
 		overflow-y: auto;
 	}
-	.edu_detail h1{
-		text-transform: uppercase;
-		padding: 50px 0px 10px 0px;
+	.edu_detail h1 {
+	    padding: 50px 0px 10px 20px;
+	    font-size: 28px;
 	}
 	.edu_detail ul li h2{
 		padding-bottom: 10px;
 		padding-top: 15px;
+		font-size: 20px;
+	}
+	.social_media a {
+    
+    	font-size: 20px  !important;
 	}
 }
 /*Educational detail styling end*/
@@ -1028,10 +1043,10 @@ footer span{
 		margin: auto;
 	}
 	.contact_form > form > input {
-   		width: 380px;
+   		width: 300px;
    	}
    	.contact_form > form > textarea{
-   		width: 380px;
+   		width: 300px;
    	}
    	.contact_form > form > label {
 	    font-size: 20px;
